@@ -1,0 +1,181 @@
+/*
+Theme Name: KOUKEN RESPONSIVE THEME
+Description:Created by Ryoji Araki
+Theme URI: テーマの URL
+Author: Ryoji Araki
+Author URI: 作った人の URL
+Version: バージョン
+License: ライセンス
+License URI: ライセンスの URL
+*/
+html {
+font-family : "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka,"メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+line-height : 1.7;
+}
+
+header{
+display: block;
+padding:20px 0 20px 0px;
+background-color: #ffffff;
+width:100%;
+}
+
+.fixed {
+	position:fixed;
+}
+
+#mbutton{
+    margin-left:20px;
+    position: absolute;
+    width:60px;
+}
+
+#logo{
+   margin: 0 auto;
+    display: block;
+    width:140px;
+}
+.sliderImg{
+    display: block;
+    max-width: 100%;
+    margin:0 auto;
+}
+
+#center{
+padding:20px;
+max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+#box1{
+padding-top:20px;
+margin: 0 auto;
+display: flex;
+display: -webkit-flex;
+justify-content: space-between;
+-webkit-justify-content:space-between;
+}
+
+.block1{
+width:30%;
+height: 100px;
+padding: 50px 0 0 20px;
+background-color: cornflowerblue;
+color:#ffffff;
+}
+
+.bg1{
+background-color: #232323;
+}
+
+.bg2{
+    background-color: #E20560;
+}
+
+.bg3{
+background-color: #08BFFF;
+}
+
+.midashi2{
+max-width: 850px;
+margin:0 auto;
+margin-top:10px;
+    color:white;
+    padding: 10px 0 10px 10px;
+width: auto;
+background-color: #232323;
+}
+
+.topArticle{
+max-width: 850px;
+margin: 0 auto;
+    margin-top:20px;
+border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+width:auto;
+padding: 10px 20px 10px 0;
+
+}
+
+.generalLeft{
+float: left;
+}
+
+.generalRight{
+margin-left: 150px;
+padding: 20px 0 0 0;
+}
+
+.midashi3{
+font-size:25px;
+}
+
+.arBar{
+background-color: #40BA00;
+    color:#fff;
+font-size:12px;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 10px;
+    width: 130px;
+}
+.genetime{
+font-size:10px;
+padding:10px;
+}
+.clearboth{
+clear: both;
+}
+
+.button1{
+    margin-top:20px;
+    padding:10px;
+    background: #eee;
+    color:#999;
+}
+
+
+.imagesMaxWidth{
+max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*スマホ用に最適化*/
+@media screen and (max-width: 480px){
+    
+    #mbutton{
+    margin-left:20px;
+    position: absolute;
+        width: 30px;
+}
+    
+    #logo{
+   margin: 0 auto;
+    display: block;
+    width:100px;
+}
+     .eyeCa{
+            width: 100px;
+        }
+    
+    .midashi3{
+font-size:15px;
+}
+    .generalRight{
+margin-left: 120px;
+padding: 10px 0 0 0;
+}
+    
+    .block1{
+width:30%;
+    font-size:13px;
+height: 70px;
+padding: 50px 0 0 5px;
+color:#ffffff;
+}
+    
+}
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<meta name="robots" content="ALL">
+<link rel="stylesheet" href="css/html5reset-1.6.1.css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="./item/mmenu/jquery.mmenu.css" type="text/css">
+<script src="./item/js/jquery-2.1.3.min.js" type="text/javascript"></script>
+<script src="item/mmenu/jquery.mmenu.min.all.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery(function($) {
+
+var nav    = $('#header'),
+    offset = nav.offset();
+
+$(window).scroll(function () {
+  if($(window).scrollTop() > offset.top) {
+    nav.addClass('fixed');
+  } else {
+    nav.removeClass('fixed');
+  }
+});
+
+});
+</script>
+    
+    
+   <script type="text/javascript">
+   $(document).ready(function() {
+      $("#menu").mmenu();
+   });
+</script>
+            
+</head>
+<body>
+<div id="wrap">
+    <header id="header">
+        <a href="#menu"><h1><img src="item/menuButton.png" alt="menuButton" id="mbutton"></h1></a>
+         <a href="#"><img src="item/logo.png" alt="KOUKEN seikei univ." id="logo" ></a>   
+        
+    
+        <nav id="menu">
+    	<ul>
+    		<li><a href="">メニュー1</a></li>
+    		<li><a href="">メニュー2</a>
+              <ul>
+				<li><a href="#about/team/management">Management</a>
+              		<ul>
+						<li><a href="#about/team/management">Management</a></li>
+						<li><a href="#about/team/sales">Sales</a></li>
+						<li><a href="#about/team/development">Development</a></li>
+					</ul>
+                 </li>
+				 <li><a href="#about/team/sales">Sales</a></li>
+				 <li><a href="#about/team/development">Development</a></li>
+				</ul>
+            </li>
+    		<li><a href="">メニュー3</a></li>
+    		<li><a href="">メニュー4</a></li>
+    		<li><a href="">メニュー5</a></li>
+    	</ul>
+    </nav>
+
+    </header>
+    <div id="center">
+    <img src="item/IMG_6154.JPG" alt="写真１" class="sliderImg" >
+        <div id="box1">
+        <div class="block1 bg1">
+            <p>KOUKENの<br>活動について</p>
+         </div>
+            <div class="block1 bg2">
+            <p>KOUKEN<br>MAGAZINE</p>
+         </div>
+        <div class="block1 bg3">
+            <p>KOUKEN<br>MEMBERS</p>
+         </div>
+    </div>
+        <secttion>
+        <h2 class="midashi2">新着エントリー</h2>
+            
+             <article class="topArticle">
+                <div class="generalLeft">
+                    <img src="item/test.png" class="eyeCa" width="140">
+                </div>
+                    <time class="genetime">2015/03/03</time>
+                    <div class="generalRight">
+                        <section>
+                        <h3 class="midashi3">コウケン人に聞く、おすすめの傘！</h3>
+<div class="arBar">カテゴリ：コウケン人</div>
+    </section>
+                
+                    </div>
+                     <br class="clearboth" /><!--フロート解除 -->
+                </article>
+                
+            
+            
+                <article class="topArticle">
+
+                     <div class="generalLeft">
+                     <img src="item/ms.png" class="eyeCa" width="140">
+                </div>
+                      <time class="genetime">2015/03/03</time>
+                    <div class="generalRight">
+                        <section>
+                        <h3 class="midashi3">やっぱりミスコンってすげえよ！改めて再確認した日</h3>
+                    <div class="arBar">カテゴリ：コウケン</div>
+                         </section>
+                    </div>
+                     <br class="clearboth" /><!--フロート解除 -->
+    
+                   
+                </article>
+    
+              <article class="topArticle">
+
+                     <div class="generalLeft">
+                     <img src="item/gogh.jpeg" class="eyeCa" width="140">
+                </div>
+                      <time class="genetime">2015/03/03</time>
+                    <div class="generalRight">
+                        <section>
+                        <h3 class="midashi3">クリエイティブとはなんなのか？ゴッホに質問してみた！</h3>
+                    <div class="arBar">カテゴリ：コウケン</div>
+                         </section>
+                    </div>
+                     <br class="clearboth" /><!--フロート解除 -->
+    
+                   
+                </article>
+        
+        </secttion>
+        <p class="button1">＞＞すべてのエントリーを見る</p>
+        <secttion>
+        <h2 class="midashi2">人気エントリー</h2>
+            
+             <article class="topArticle">
+
+                     <div class="generalLeft">
+                     <img src="item/gogh.jpeg" class="eyeCa" width="140">
+                </div>
+                      <time class="genetime">2015/03/03</time>
+                    <div class="generalRight">
+                        <section>
+                        <h3 class="midashi3">クリエイティブとはなんなのか？ゴッホに質問してみた！</h3>
+                    <div class="arBar">カテゴリ：コウケン</div>
+                         </section>
+                    </div>
+                     <br class="clearboth" /><!--フロート解除 -->
+    
+                   
+                </article>
+            
+        </secttion>
+        <img src="item/kouhou.png" alt="広報局に興味はない？" class="imagesMaxWidth">
+</div>
+</body>
+</html>

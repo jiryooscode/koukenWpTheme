@@ -1,0 +1,193 @@
+@media screen and (max-width: 500px){
+
+    .generalLeft{
+float: left;
+padding:30px 10px 10px 10px;
+background-color: #fff;
+}
+
+     .attachment-thumbnail{
+         width: 50px;
+ height: 50px;
+ overflow: hidden;
+        }
+
+    .midashi3{
+font-size:18px;
+}
+
+    .block1{
+width:30%;
+    font-size:11px;
+height: 50px;
+padding: 20px 0 0 5px;
+}
+    .name{
+        font-size: 13px;
+        font-weight: bold;
+
+    }
+
+    .des{
+        font-size: 11px;
+        margin-top:4px;
+    }
+    
+    
+.avatar-40{
+display: none!important;
+}
+    
+    .maru{
+border-radius: 50%;
+        width: 60px!important;
+        height: 60px!important;
+}
+    
+    
+    .brueboxh2{
+text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #FFF;
+    background-color: #19c7e7;
+    z-index: 3;
+    position: absolute;
+    opacity: 0.95;
+    top:33px;
+    left: 20px;
+}
+
+    .footlogo p{
+font-size: 12px;
+color: #535353;
+font-weight: bold;
+letter-spacing: 0.2em;
+}
+    .m4{
+    font-size:11px;
+    }
+    
+    .generalLeft2 {
+  float: left;
+  padding: 30px 10px 30px 10px;
+  background-color: #fff;
+}
+    
+    .generalRight2 {
+  margin-left: 10px;
+  padding: 5px 0 0 0;
+}
+    
+    .avatar-70 {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  margin-top: 10px;
+  border: 5px solid #fff;
+  width: 40px;
+  height: 40px;
+}
+    .arBar3 {
+  position: absolute;
+  right: 90px;
+  bottom: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 1px 15px 1px 15px;
+  color: #FFF;
+  z-index: 200;
+}
+
+}
+
+@media (min-width: 850px) {
+    #mainBoxFlex{
+    float: left;
+        width: 65%;
+    }
+    #sidebarFlex{
+    width: 30%;
+    float: right;
+    margin-right: 20px;
+    }
+    
+    .logobox{
+padding:80px 0 80px 0;
+border-radius: 2px;
+width: 340px;
+color: #FFF;
+    line-height: 30px;
+    margin:90px 0 0 50px!important;
+    font-family: "helvetica neue";
+        float: left;        
+        border:1px solid #FFF;
+        
+}
+
+.logobox h2{
+text-align: center;
+font-size: 45px;
+}
+.logobox h3{
+text-align: center;
+font-size: 25px;
+    margin-top:20px;
+}
+
+.koukenwebsite{
+color:#fff;
+    font-size: 27px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:20px;
+}
+
+.WD{
+text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 17px;
+}
+    
+    .flexData{
+        float: right;
+        margin: 140px 8% 0 0;
+    }
+
+.linkAboutUs{
+display: block;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    padding:10px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid #FFF;
+    /*box-shadow: 0px 6px 0 0 #333;*/
+}
+
+.linkAboutUs:link {/*未訪問のリンク*/
+    color:#333;
+    font-style:normal;
+    text-decoration:none;
+}
+
+.linkAboutUs:visited {/*未訪問のリンク*/
+    color:#333;
+    font-style:normal;
+    text-decoration:none;
+}
+    
+    .contentArea{
+    padding:30px 10px 10px 20px;
+    line-height: 1.8;
+    }
+    
+    #center{
+    padding:5px 10px 50px 20px;
+    background-color: #FFF;
+    margin: 0 auto;
+    }
+}

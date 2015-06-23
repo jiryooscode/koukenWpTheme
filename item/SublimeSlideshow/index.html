@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>SublimeSlideshow Demo Page ~ LIG</title>
+    <meta name="description" content="jQuery Plugin for fullscreen slideshow">
+    <meta name="keywords" content="SublimeSlideshow,demo,jQuery,フルスクリーン,jQueryプラグイン,スライドショー,LIG">
+    <link id="reset_css" rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/sublimeSlideshow.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="all" />
+    
+    <script type="text/javascript" src="js/loadCSS.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sublimeSlideshow.js"></script>
+
+    <script type="text/javascript">
+    $(function(){
+        $.sublime_slideshow({
+            src:[
+            {url:"images/1.jpg",title:"星空"},
+            {url:"images/2.jpg"},
+            {url:"images/3.jpg",title:"月夜"}
+            ],
+            duration:   7,
+            fade:       1,
+            scaling:    1.2,
+            rotating:   2,
+            overlay:    "images/pattern.png"
+        });
+    });
+    </script>
+
+
+</head>
+<body>
+<div id="header"><a href="">◀LIGブログに戻る</a></div>
+<div id="info">
+    <p id="pname">SublimeSlideshow</p>
+    <p id="pinfo">CSS3を利用したフルスクリーンスライドショーjQueryプラグイン</p>
+    <a id="link" target="_blank" href="http://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/">元ネタ</a>
+</div>
+
+<div id="code">
+    <pre>
+    $(function(){
+        $.sublime_slideshow({
+            src:[
+            {url:"images/1.jpg",title:"星空"},
+            {url:"images/2.jpg"},
+            {url:"images/3.jpg",title:"月夜"}
+            ],
+            duration:   7,
+            fade:       1,
+            scaling:    1.2,
+            rotating:   2,
+            overlay:    "images/pattern.png"
+        });
+    });
+    </pre>
+</div>
+</body>
+</html>
